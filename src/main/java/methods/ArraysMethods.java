@@ -1,4 +1,4 @@
-package main.java.classes;
+package main.java.methods;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -12,7 +12,7 @@ public class ArraysMethods {
         System.out.println();
     }
 
-    public static void sumPositive (int[] arr){
+    public static void printSumPositive (int[] arr){
         int sum = 0;
         for (int i : arr){
             if (i > 0){
@@ -23,7 +23,7 @@ public class ArraysMethods {
         System.out.println();
     }
 
-    public static void averageValue (int[] arr){
+    public static void printAverageValue (int[] arr){
         int sum = 0;
         for (int i : arr){
             sum += i;

@@ -1,4 +1,4 @@
-package main.java.classes;
+package main.java.methods;
 
 import java.util.Iterator;
 import java.util.List;

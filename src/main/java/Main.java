@@ -1,7 +1,7 @@
 package main.java;
 
-import main.java.classes.ArrayListsMethods;
-import main.java.classes.ArraysMethods;
+import main.java.methods.ArrayListsMethods;
+import main.java.methods.ArraysMethods;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,8 +21,8 @@ public class Main {
         ArrayListsMethods.replaceValues(arrList, "Tree", "Three");
 
         int [] array = {1, -2, 8, -7, 9 };
-        ArraysMethods.sumPositive(array);
-        ArraysMethods.averageValue(array);
+        ArraysMethods.printSumPositive(array);
+        ArraysMethods.printAverageValue(array);
 
         List<Integer> list = new ArrayList<>();
         list.add(1);
